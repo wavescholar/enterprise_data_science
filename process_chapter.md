@@ -218,11 +218,9 @@ This is not a comprehensive list of reading material, but it’s an excellent pl
 
 **Big Data**
 
-- Agile Data Science Chapter 2. Agile Tools
 - Hadoop: The Definitive Guide, 4th Edition by Tom White
-- Learning Spark by Matei Zaharia , Patrick Wendell , Andy Konwinski , Holden Karau • Advanced
-
-Analytics with Spark, 2nd Edition by Josh Wills , Sean Owen , Sandy Ryza , Uri Laserson • Agile Data Science 2.0, 1st Edition by Russell Jurney
+- Learning Spark by Matei Zaharia , Patrick Wendell , Andy Konwinski , Holden Karau 
+- Advanced Analytics with Spark, 2nd Edition by Josh Wills , Sean Owen , Sandy Ryza , Uri Laserson 
 
 **Statistics**
 
@@ -237,6 +235,7 @@ Analytics with Spark, 2nd Edition by Josh Wills , Sean Owen , Sandy Ryza , Uri L
 - Linear Models with R by Julian J. Faraway
 - Extending the Linear Model with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models by Julian J. Faraway
 - Generalized Linear Models by P. McCullagh and John A. Nelder
+- Reliability: Probabilistic Models and Statistical Methods by Lawrence Mark Leemis 
 
 **Machine Learning**
 
