@@ -1,4 +1,4 @@
-﻿**Data Science Best Practices and Processes**
+**Data Science Best Practices and Processes**
 
 This (draft) document is meant to help onboard new data scientists and serve as a reference for current data scientists. Data science consists of a multidisciplinary field encompassing machine learning & statistics, knowledge representation, visualization, writing, and software engineering. This document covers a variety of subjects and best practices from how to run an Agile data science process, to coding standards, and to project management.
 
@@ -8,7 +8,7 @@ Above all else, we’re scientists, and that comes with ethical and process impl
 
 **Code of Conduct**
 
-We don’t have a strict code of conduct here, but there are a few essential principles we hold dear:
+In addition to your organizations ethics and conduct standards, there are a few essential principles we hold dear:
 
 - Act in good faith: we are here to accomplish several goals - deliver value to the company, one another, and ourselves. Whenever you have a choice to make about work or how you treat a colleague, ask whether, in doing so, you further these goals.
 - Consider things from other people’s perspectives: Working on a team is hard if we expect our colleagues to do all the work of communication. Give people the benefit of the doubt when you disagree, and try to understand what they are really saying and why they might be doing so.
@@ -45,11 +45,9 @@ Data science should be run in an Agile fashion. Agile is a general type of proje
 
 - Generally, a data scientist will work on only one or two projects per sprint.
 - Project artifacts should be stored in content stores like Jira, Confluence
-- Code, documentation and all software artifacts for a project *must* exist in a git repository • Data and
-
-private information should *not* exist in any git repository. Automation in each project should,
-
-instead, fetch necessary data to a location outside the git repository (or ignored by it). Instructions about where to get private information required for the project should be in the project documentation. • Projects must have defined completion criteria before starting
+- Code, documentation and all software artifacts for a project *must* exist in a git repository
+- Data and private information should *not* exist in any git repository. Automation in each project should,instead, fetch necessary data to a location outside the git repository (or ignored by it). Instructions about where to get private information required for the project should be in the project documentation.
+- Projects must have defined completion criteria before starting
 
 Project planning is hard. The point isn’t to get estimates exactly right but to create a manageable history of effort. It is also very good for productivity to resolve questions of priorities and to plan ahead of time so that when we do get to work, we can do so without distraction.
 
@@ -110,11 +108,7 @@ Repeat until the end of the sprint.
 
 **Demo**
 
-Each sprint ends with a sprint demo, which shows either some interesting results of your work or a two-three slide summary of the work you’ve accomplished in the sprint. Analytics’ ultimate purpose is to provide
-
-3
-
-insight into data - if your work does that, be sure to present that result in the most engaging way possible, given the time constraints.
+Each sprint ends with a sprint demo, which shows either some interesting results of your work or a two-three slide summary of the work you’ve accomplished in the sprint. Analytics’ ultimate purpose is to provide insight into data - if your work does that, be sure to present that result in the most engaging way possible, given the time constraints.
 
 It’s very important to include stakeholders in the demo. The content needs to be understandable for non technical managers and customers. It’s OK to have technical content but be clear where it is, and always respect the audience. The demo is not a time to show other data scientists your skills at mathematics and statistics - there are other venues for that. Don’t derail the sprint demo with side conversations, planning, or peer review. The demo is to communicate what was accomplished during the sprint.
 
@@ -152,12 +146,12 @@ Don’t think of your project as a bunch of files. Think of it as a series of co
 
 A git repository literally is just a set of commit chains and some tools to merge different chains and apply the patches inside each to the current state of the project. But it is all *diffs* at the end of the day.
 
-1. Always make small commits that do one thing.
-1. Always submit pull requests or merge to master a chain of small commits which result in a running, test-passing project.
-1. Don’t document too much code inline. Documentation in source code gets out of date and can make code less readable.
-1. Do write very informative commit messages. These are perpetually attached to the code they refer to and furnish perpetual, contextual documentation that doesn’t drift out of date.
-1. Do refactor code aggressively. If you follow rules 1-4 it will always be easy to find when things went wrong and to recover the latest, meaningful working version.
-1. Do get comfortable with git’s fancier, patch management capabilities. Learn to revert and cherry pick. Learn to rebase and clean up messes. Know what a detached head state is.
+- Always make small commits that do one thing.
+- Always submit pull requests or merge to master a chain of small commits which result in a running, test-passing project.
+- Don’t document too much code inline. Documentation in source code gets out of date and can make code less readable.
+- Do write very informative commit messages. These are perpetually attached to the code they refer to and furnish perpetual, contextual documentation that doesn’t drift out of date.
+- Do refactor code aggressively. If you follow rules 1-4 it will always be easy to find when things went wrong and to recover the latest, meaningful working version.
+- Do get comfortable with git’s fancier, patch management capabilities. Learn to revert and cherry pick. Learn to rebase and clean up messes. Know what a detached head state is.
 
 There are different types of git workflows. Get familiar with these.
 
@@ -267,7 +261,9 @@ Data science is not a new field - statistics, information theory, cybernetics (t
 
 Understand the resources and support required to maintain your data scientists. Don’t socialize too early. Data science is a craft where many projects have negative results or fail. Do take the time to understand the difference between negative results and failure due to technical reasons. Understand the difference between the different types of data scientists.
 
-[https://hbr.org/2018/11/the-kinds-of-data-scientist] **When is your data big?**
+[https://hbr.org/2018/11/the-kinds-of-data-scientist] 
+
+**When is your data big?**
 
 - When it cant fit in memory on one computer
 - When processing takes more than a few hours
@@ -296,9 +292,9 @@ Biases not only come from the models we fit. They are an inherent part of the hu
 - Iatrogenics : Harm done by the healer, like the doctor doing more harm than good.
 - Naive Interventionism: intervention with disregard to iatrogenics. The preference or perceived obligation, to “do something” over doing nothing.
 - The Agency Problem: A moral hazard and conflict of interest that may arise in any relationship where one party is expected to act in another’s best interests.
-- Narrative fallacy: Our need to fit a story or pattern to series of connected or disconnected facts. The statistical application is data mining. Fitting a convincing and well-sounding story to the past as
+- Narrative fallacy: Our need to fit a story or pattern to series of connected or disconnected facts. The statistical application is data mining. Fitting a convincing and well-sounding story to the past as opposed to utilizing experimental methodology. 
 
-opposed to utilizing experimental methodology. **On relevance**
+**On relevance**
 
 Be kind to yourself when evaluating the relevance of your work to the enterprise. The company has hired talented staff, and you want to make an impact. It can sometimes be hard to understand why a model is not adopted, or why one of many competing models developed in isolation is adopted over another. This is part of science, while it may all be correct - it might all be relevant. Focus instead on the correctness of the results and the process in which it’s developed. Be kind to your leaders when assessing their reasoning behind making a decision regarding models and results.
 
