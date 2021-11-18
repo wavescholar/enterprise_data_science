@@ -191,7 +191,9 @@ Favor disposable hardware and persistent data paradigms. A small community of da
 
 Notebooks are a great way to start a project but are not appropriate for commercial deployment. Use them, but keep in mind that it’s easier to use an IDE from the start if you know you’re going to be developing a package. Use templates for software configuration management.
 
-[https://github.com/uwescience/shablona] [https://usethis.r-lib.org/articles/articles/usethis-setup.html]
+[https://github.com/uwescience/shablona
+
+[https://usethis.r-lib.org/articles/articles/usethis-setup.html]
 
 **Modern devops**
 
@@ -203,7 +205,8 @@ All of the modern software engineering paradigms apply to data science.
 - Unit testing
 - Code coverage
 - Logging with levels (DEBUG INFO WARN ERROR) and streams (file stdout etc) : log4r , python logger
-- linters for code standards: such as flake8 (which combines the tools pep8 and pyflakes) and lintr • Auto documentation tools - Doxygen, Roxygen, Sphynx
+- linters for code standards: such as flake8 (which combines the tools pep8 and pyflakes) and lintr 
+- Auto documentation tools - Doxygen, Roxygen, Sphynx
 
 These are best incorporated in an Agile data science practice by using platforms and templates. GitLab offers a platform for CI. The tidyverse has a library for creating and maintaining R packages - usethis. There are package templates for Python projects as well. [https://github.com/uwescience/shablona] is particularly comprehensive. Look for easy ways to incorporate these into your practice.
 
@@ -246,7 +249,8 @@ Analytics with Spark, 2nd Edition by Josh Wills , Sean Owen , Sandy Ryza , Uri L
 
 **Core Competencies**
 
-- git [https://www.csc.kth.se/utbildning/kth/kurser/DD2385/material/gitmagic.pdf] • SQL
+- git [https://www.csc.kth.se/utbildning/kth/kurser/DD2385/material/gitmagic.pdf]
+- SQL
 - R
 - Spark
 - Python
