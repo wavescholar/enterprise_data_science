@@ -61,7 +61,7 @@ Project planning is hard. The point isn’t to get estimates exactly right but t
 - Working software over comprehensive documentation
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
-- 
+
 **Agile Data Science Manifesto**
 
 Agile Data Science is organized around the following principles:
